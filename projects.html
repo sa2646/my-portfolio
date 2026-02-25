@@ -1,0 +1,230 @@
+        <div class="projects-grid">
+    <div class="project-card">
+        <div class="project-image">
+            <div class="placeholder-image">🧬</div>
+        </div>
+        <div class="project-content">
+            <h3>Cartilage Regeneration Scaffold</h3>
+            <p class="project-subtitle">Biomaterials Research Project</p>
+            <p class="project-description">Designed and tested a novel hydrogel scaffold for cartilage tissue engineering using 3D bioprinting techniques. Achieved 40% improvement in cell viability and mechanical strength compared to traditional methods.</p>
+            <div class="project-tech">
+                <span class="tech-tag">3D Bioprinting</span>
+                <span class="tech-tag">Hydrogel Synthesis</span>
+                <span class="tech-tag">Cell Culture</span>
+                <span class="tech-tag">MATLAB</span>
+            </div>
+            <div class="project-results">
+                <h4>Key Results:</h4>
+                <ul>
+                    <li>Published in Journal of Biomaterials Science</li>
+                    <li>Presented at BMES Annual Meeting</li>
+                    <li>Patent pending for scaffold design</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="project-card">
+        <div class="project-image">
+            <div class="placeholder-image">❤️</div>
+        </div>
+        <div class="project-content">
+            <h3>Cardiovascular Stent Optimization</h3>
+            <p class="project-subtitle">Medical Device Design</p>
+            <p class="project-description">Contributed to the design and optimization of a next-generation cardiovascular stent using computational fluid dynamics and finite element analysis. Improved blood flow dynamics by 25% while maintaining structural integrity.</p>
+            <div class="project-tech">
+                <span class="tech-tag">CAD Design</span>
+                <span class="tech-tag">CFD Analysis</span>
+                <span class="tech-tag">SolidWorks</span>
+                <span class="tech-tag">Python</span>
+            </div>
+            <div class="project-results">
+                <h4>Key Results:</h4>
+                <ul>
+                    <li>Contributed to FDA pre-market approval</li>
+                    <li>Reduced restenosis rate in animal trials</li>
+                    <li>2nd place in Engineering Design Competition</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="project-card">
+        <div class="project-image">
+            <div class="placeholder-image">🧠</div>
+        </div>
+        <div class="project-content">
+            <h3>EEG Signal Processing Algorithm</h3>
+            <p class="project-subtitle">Computational Neuroscience</p>
+            <p class="project-description">Developed a machine learning algorithm for real-time EEG signal processing to detect epileptic seizures. Achieved 92% accuracy in seizure prediction with minimal false positives.</p>
+            <div class="project-tech">
+                <span class="tech-tag">Signal Processing</span>
+                <span class="tech-tag">Machine Learning</span>
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">TensorFlow</span>
+            </div>
+            <div class="project-results">
+                <h4>Key Results:</h4>
+                <ul>
+                    <li>Best Paper Award at Neural Engineering Conference</li>
+                    <li>Open-source implementation with 500+ GitHub stars</li>
+                    <li>Collaboration with hospital neurology department</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="project-card">
+        <div class="project-image">
+            <div class="placeholder-image">🦴</div>
+        </div>
+        <div class="project-content">
+            <h3>Smart Orthopedic Implant</h3>
+            <p class="project-subtitle">IoT Medical Device</p>
+            <p class="project-description">Designed a smart orthopedic implant with integrated sensors for real-time monitoring of bone healing. Implemented wireless data transmission and developed accompanying mobile application for patient monitoring.</p>
+            <div class="project-tech">
+                <span class="tech-tag">IoT Sensors</span>
+                <span class="tech-tag">Embedded Systems</span>
+                <span class="tech-tag">Mobile App</span>
+                <span class="tech-tag">Data Analytics</span>
+            </div>
+            <div class="project-results">
+                <h4>Key Results:</h4>
+                <ul>
+                    <li>Won university innovation challenge</li>
+                    <li>Secured $50k seed funding</li>
+                    <li>Pilot study with 10 patients completed</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.project-card {
+    background: var(--pure-white);
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: var(--shadow-md);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-8px);
+    box-shadow: var(--shadow-lg);
+}
+
+.project-image {
+    height: 200px;
+    background: linear-gradient(135deg, var(--medical-teal), var(--soft-cobalt));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.placeholder-image {
+    font-size: 4rem;
+    color: white;
+    opacity: 0.9;
+}
+
+.project-content {
+    padding: 40px;
+}
+
+.project-content h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--text-dark);
+    margin-bottom: 8px;
+}
+
+.project-subtitle {
+    color: var(--medical-teal);
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.project-description {
+    color: var(--text-light);
+    line-height: 1.6;
+    margin-bottom: 24px;
+}
+
+.project-tech {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-bottom: 24px;
+}
+
+.tech-tag {
+    background: rgba(20, 184, 166, 0.1);
+    color: var(--medical-teal);
+    padding: 6px 16px;
+    border-radius: 20px;
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+
+.project-results {
+    border-top: 1px solid #e5e7eb;
+    padding-top: 24px;
+}
+
+.project-results h4 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--text-dark);
+    margin-bottom: 12px;
+}
+
+.project-results ul {
+    list-style: none;
+    padding: 0;
+}
+
+.project-results li {
+    padding: 6px 0;
+    color: var(--text-dark);
+    position: relative;
+    padding-left: 20px;
+}
+
+.project-results li::before {
+    content: "✓";
+    color: var(--medical-teal);
+    position: absolute;
+    left: 0;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .projects-grid {
+        grid-template-columns: 1fr;
+        gap: 24px;
+    }
+
+    .project-content {
+        padding: 24px;
+    }
+
+    .project-tech {
+        gap: 8px;
+    }
+
+    .tech-tag {
+        font-size: 0.8rem;
+        padding: 4px 12px;
+    }
+}
+</style>
